@@ -61,3 +61,32 @@ console.log(typeof anotherId);
     5. undefined = undefined
     6. object = object
 */ 
+
+
+
+// +++++++++++++++++++++++++++++++++++++++
+
+// Memory
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myYoutubename = "shravanthombare"
+
+let anotherName = myYoutubename
+anotherName = "thombareShravan"
+
+console.log(myYoutubename);
+console.log(anotherName);
+
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "shravan@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
